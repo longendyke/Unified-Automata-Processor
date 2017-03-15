@@ -3,27 +3,27 @@ A repository containing my work from the Summer of 2015 on the Unified Automata 
 
 Use Instructions Follow:
 
-+===============================================+
-+ The Unified Automata Processor: 		+
-+ A Method of Processing over Unstructured Data	+
-+-----------------------------------------------+
-+ By Kevin Fang and Willem Longendyke		+
-+-----------------------------------------------+
-+ The University of Chicago:			+
-+ Department of Computer Science		+
-+===============================================+
+===============================================
+ 	The Unified Automata Processor: 		
+ A Method of Processing over Unstructured Data	
+-----------------------------------------------
+ 	By Kevin Fang and Willem Longendyke		
+-----------------------------------------------
+	 The University of Chicago:			
+	 Department of Computer Science		
+===============================================
 
 Included in this code are:
-	-Import of NFA/DFA/A-DFA from text format.
-	-DFA/NFA/A-DFA traversal routines.
+	+Import of NFA/DFA/A-DFA from text format.
+	+DFA/NFA/A-DFA traversal routines.
 
 Build Information
 =================
 
 The code can be compiled and built using the provided makefile. 
 Targets:
-- all: builds the whole code (default)
-- clean: deletes all object files and executable
++ all: builds the whole code (default)
++ clean: deletes all object files and executable
 
 The code has been compiled using gcc 4.8.4 and under Ubuntu version 14.04
 
