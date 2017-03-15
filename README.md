@@ -7,17 +7,16 @@ Use Instructions Follow:
  # The Unified Automata Processor: 		
  # A Method of Processing over Unstructured Data	
 
- ## By Kevin Fang and Willem Longendyke		
+ ### By Kevin Fang and Willem Longendyke		
 
-## The University of Chicago, Department of Computer Science		
+### The University of Chicago, Department of Computer Science		
 
 
 Included in this code are methods to:
 + Import NFA/DFA/A-DFA from text format.
 + DFA/NFA/A-DFA traversal routines.
 
-Build Information
-
+### Build Information
 
 The code can be compiled and built using the provided makefile. 
 Targets:
@@ -26,7 +25,7 @@ Targets:
 
 The code has been compiled using gcc 4.8.4 and under Ubuntu version 14.04
 
-USAGE:
+### USAGE:
 ./UAP [options]
 + [-h]
 + [-p automaton prefix]
@@ -56,7 +55,7 @@ Options:
   * 2: messages from the prefetcher.
   * 3: messages from the sequence logic.
 
-# Code Organization
+### Code Organization
 
 + main.cpp
   * Contains the main function, parsing command line arguments, and initializes the PMA, which starts the whole program.
@@ -95,10 +94,10 @@ Options:
 
 1. Run the RegEx Compiler over a set of patterns, having it output an automata of your choosing using the --nfa/--dfa/--a_dfa command line options
 2. If using multiple automata, be sure to have them named with a base prefix, for example, for 5 automata:
-  *AUTO_0.txt
-  *AUTO_1.txt
-  *AUTO_2.txt
-  *AUTO_3.txt
-  *AUTO_4.txt
+	* AUTO_0.txt
+ 	* AUTO_1.txt
+ 	* AUTO_2.txt
+ 	* AUTO_3.txt
+ 	* AUTO_4.txt
 where AUTO is the base prefix (to be given to the UAP) and each _#.txt will be appended automatically by the UAP (to change this, see UAP.cpp, lines 76-85).
 3. Load these automata into the UAP (only ONE type at a time) by specifying the base prefix, number of automata, automaton type, input filename, and the other listed options above.
