@@ -13,8 +13,8 @@ Use Instructions Follow:
 
 
 Included in this code are methods to:
-	+ Import NFA/DFA/A-DFA from text format.
-	+ DFA/NFA/A-DFA traversal routines.
++ Import NFA/DFA/A-DFA from text format.
++ DFA/NFA/A-DFA traversal routines.
 
 Build Information
 
@@ -28,16 +28,16 @@ The code has been compiled using gcc 4.8.4 and under Ubuntu version 14.04
 
 USAGE:
 ./UAP [options]
-	+ [-h]
-	+ [-p <automaton prefix>]
-	+ [-n <number of automata>]
-	+ [-t <automata type>]
-	+ [-i <input filename>]
-	+ [-m <lane mask>]
-	+ [-s <static mapping>]
-	+ [-c <configuration filename>]
-	+ [-l <step size>]
-	+ [-v <verbosity level>]
++ [-h]
++ [-p <automaton prefix>]
++ [-n <number of automata>]
++ [-t <automata type>]
++ [-i <input filename>]
++ [-m <lane mask>]
++ [-s <static mapping>]
++ [-c <configuration filename>]
++ [-l <step size>]
++ [-v <verbosity level>]
 
 Options:
 	+ -h,				 print this message
