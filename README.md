@@ -99,5 +99,6 @@ Options:
  	* AUTO_2.txt
  	* AUTO_3.txt
  	* AUTO_4.txt
+
 where AUTO is the base prefix (to be given to the UAP) and each _#.txt will be appended automatically by the UAP (to change this, see UAP.cpp, lines 76-85).
 3. Load these automata into the UAP (only ONE type at a time) by specifying the base prefix, number of automata, automaton type, input filename, and the other listed options above.
